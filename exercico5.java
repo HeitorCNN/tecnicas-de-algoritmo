@@ -11,8 +11,7 @@ public class exercico5 {
 		int a [], i,num;
 		
 		a = new int [TAM]; 
-		 Scanner in = new Scanner(System.in);
-
+	
         for (int i = 0; i < TAM; i++) {
             System.out.print("A[" + i + "]: ");
             a[i] = in.nextInt();
@@ -33,3 +32,4 @@ public class exercico5 {
 
 		
 	
+
