@@ -9,15 +9,13 @@ public class exercicio3 {
 		a = new int [TAM];
 
         Scanner in = new Scanner(System.in);
-        
-        a = new int[10];
 
-        for (i = 0; i < a.length; i++) {
+        for (i = 0; i < TAM; i++) {
             System.out.print("Digite o elemento A[" + i + "]: ");
             a[i] = in.nextInt();
         }
 
-        for (i = 0; i < a.length; i++) {
+        for (i = 0; i < TAM; i++) {
             num = a[i];
             contador = 0;
 
@@ -30,11 +28,12 @@ public class exercicio3 {
             System.out.print("A[" + i + "] = " + num + " -> ");
 
             if (contador == 2) {
-                System.out.println("É primo");
+                System.out.println("Ã‰ primo");
             } else {
-                System.out.println("Não é primo");
+                System.out.println("NÃ£o Ã© primo");
             }
         }
 
     }
 }
+
